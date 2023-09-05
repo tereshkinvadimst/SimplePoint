@@ -5,8 +5,6 @@
 struct Cartesian {
 };
 
-
-
 int main() {
     const std::size_t DIM = 3;
     simple_point::Point<double, DIM, Cartesian> point_xyz(10);

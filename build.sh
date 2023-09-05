@@ -9,7 +9,7 @@ echo "==START BUILDING PROJECT=="
 
 cd ./build
 
-cmake -G Ninja ../lib
+cmake -G Ninja ..
 
 ninja
 
